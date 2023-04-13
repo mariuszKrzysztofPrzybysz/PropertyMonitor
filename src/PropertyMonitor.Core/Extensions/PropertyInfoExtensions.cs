@@ -2,8 +2,8 @@
 using System.Reflection;
 
 namespace PropertyMonitor.Core.Extensions;
-internal static class PropertyInfoExtensions
+public static class PropertyInfoExtensions
 {
-    internal static bool IsMonitored(this PropertyInfo propertyInfo)
+    public static bool IsMonitored(this PropertyInfo propertyInfo)
         => propertyInfo.GetCustomAttribute<UnmonitoredAttribute>() is null;
 }

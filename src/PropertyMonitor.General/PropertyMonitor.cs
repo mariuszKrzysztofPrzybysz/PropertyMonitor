@@ -1,9 +1,9 @@
 ﻿using PropertyMonitor.Core.Extensions;
 using PropertyMonitor.Core.Helpers;
-using PropertyMonitor.Core.Interfaces;
+using PropertyMonitor.General.Interfaces;
 using System.Reflection;
 
-namespace PropertyMonitor.Core;
+namespace PropertyMonitor.General;
 public abstract class PropertyMonitor : IMonitorable
 {
     internal Dictionary<string, object?> _monitoredProperties = new();

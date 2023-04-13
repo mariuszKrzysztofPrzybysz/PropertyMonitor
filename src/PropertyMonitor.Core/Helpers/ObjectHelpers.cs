@@ -1,8 +1,8 @@
 ﻿namespace PropertyMonitor.Core.Helpers
 {
-    internal sealed class ObjectHelpers
+    public sealed class ObjectHelpers
     {
-        internal static bool HaveDifferentValues(Type type, object? originalValue, object? currentValue)
+        public static bool HaveDifferentValues(Type type, object? originalValue, object? currentValue)
         {
             bool? result = HaveDifferentValuesHelper(type, originalValue, currentValue);
 

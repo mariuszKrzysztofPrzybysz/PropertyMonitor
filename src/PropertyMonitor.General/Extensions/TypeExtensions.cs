@@ -1,4 +1,4 @@
-﻿namespace PropertyMonitor.Core.Extensions;
+﻿namespace PropertyMonitor.General.Extensions;
 public static class TypeExtensions
 {
     public static T AsMonitorable<T>(this T instance)

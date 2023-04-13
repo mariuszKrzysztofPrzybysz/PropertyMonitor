@@ -1,7 +1,5 @@
-﻿namespace PropertyMonitor.Nest.Interfaces
+﻿namespace PropertyMonitor.Nest.Interfaces;
+public  interface IMonitorable
 {
-    public  interface IMonitorable
-    {
-        IDictionary<string, object?> ChangedFields { get; }
-    }
+    IDictionary<string, object?> ChangedFields { get; }
 }

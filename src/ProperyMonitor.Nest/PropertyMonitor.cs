@@ -1,5 +1,4 @@
-﻿using PropertyMonitor.Core.Extensions;
-using PropertyMonitor.Core.Helpers;
+﻿using PropertyMonitor.Core.Helpers;
 using PropertyMonitor.Nest.Extensions;
 using PropertyMonitor.Nest.Interfaces;
 

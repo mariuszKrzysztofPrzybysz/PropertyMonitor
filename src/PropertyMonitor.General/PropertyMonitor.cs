@@ -1,5 +1,5 @@
-﻿using PropertyMonitor.Core.Extensions;
-using PropertyMonitor.Core.Helpers;
+﻿using PropertyMonitor.Core.Helpers;
+using PropertyMonitor.General.Extensions;
 using PropertyMonitor.General.Interfaces;
 using System.Reflection;
 
